@@ -1,3 +1,3 @@
 abstract class Sandwich {
-  void recipe();
+  Future<void> recipe();
 }

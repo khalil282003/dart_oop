@@ -2,10 +2,10 @@ import 'barbecue.dart';
 import 'sandwich.dart';
 import 'shawarma.dart';
 
-void main() {
+void main() async {
   Sandwich shawarma = Shawarma();
   Sandwich meat = Barbecue();
 
-  shawarma.recipe();
-  meat.recipe();
+  await shawarma.recipe();
+  await meat.recipe();
 }
